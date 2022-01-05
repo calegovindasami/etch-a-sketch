@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div><h1>Etch-a-Sketch</h1></div>
+    <div class="content">
+      <div class="options">
+        <div>
+          <div id="sliderText"></div>
+          <input
+            type="range"
+            min="16"
+            max="64"
+            value="16"
+            class="slider"
+            id="range"
+          />
+        </div>
+        <button class="button" id="color">Color</button>
+        <button class="button" id="rainbow">Rainbow</button>
+        <button class="button" id="eraser">Eraser</button>
+        <button class="button" id="clear">Clear</button>
+      </div>
+      <div id="grid"></div>
+    </div>
+  </body>
+</html>
